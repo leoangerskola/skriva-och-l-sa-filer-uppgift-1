@@ -19,7 +19,7 @@ namespace skriva_och_läsa_filer_uppgift_1
         {
             string row = null;
             string Out = null;
-            using (StreamReader sr = new StreamReader("resultat.txt"))
+            using (StreamReader sr = new StreamReader("resultat.txt")) //
             {
                 while (!sr.EndOfStream)
                 {
